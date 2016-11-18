@@ -10,23 +10,23 @@ namespace UnityStandardAssets.Utility
 		private Transform target;
 		// The distance in the x-z plane to the target
 		[SerializeField]
-		private float distance = 3.0f;
+		public float distance;
 		// the height we want the camera to be above the target
 		[SerializeField]
-		private float height = 2.0f;
+		public float height;
 
 		[SerializeField]
-		private float rotationDamping = 2	;
+		public float rotationDamping;
 		[SerializeField]
-		private float heightDamping = 2;
+		public float heightDamping;
 
 		// Use this for initialization
 		void Start() {
 		
-			distance = 3.0f;
-			height = 2.0f;
-			rotationDamping = 2;
-			heightDamping = 2;
+			//distance = 3.0f;
+			//height = 2.0f;
+			//rotationDamping = 2;
+			//heightDamping = 2;
 
 		}
 
